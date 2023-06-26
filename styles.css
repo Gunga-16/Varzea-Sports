@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: black;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 50px;
+  }
+  
+  h1, h2, h3 {
+    color: orange;
+  }
+  
+  #policies {
+    background-color: black;
+    color: white;
+    padding: 50px;
+  }
+  
+  #policies h2 {
+    color: orange;
+  }
+  
+  #policies ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  #policies li {
+    margin-bottom: 10px;
+  }
+  
+
+  .product-item {
+    margin-bottom: 30px;
+  }
+  
+  .product-item img {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    margin-bottom: 10px;
+  }
+  
+  form input, form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: orange;
+    color: black;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  footer ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer p {
+    margin-top: 10px;
+  }
+  
